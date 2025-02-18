@@ -26,6 +26,9 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+test_dataset/*
+temp_dataset/*
+embeddings/*
 _deps
 
 *__pycache__
@@ -70,6 +73,7 @@ Demos/*/*.html
 *.swp
 *~
 callgrind.out.*
+
 
 .ipynb_checkpoints
 docs/build
